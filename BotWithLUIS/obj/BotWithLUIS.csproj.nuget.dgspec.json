@@ -1,28 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ignacio.secco\\source\\repos\\BotWithLUIS\\BotWithLUIS\\BotWithLUIS.csproj": {}
+    "C:\\Users\\ragonzalez\\OneDrive - ENDAVA\\Documents\\innovation labs\\InnovationLab\\BotWithLUIS\\BotWithLUIS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ignacio.secco\\source\\repos\\BotWithLUIS\\BotWithLUIS\\BotWithLUIS.csproj": {
+    "C:\\Users\\ragonzalez\\OneDrive - ENDAVA\\Documents\\innovation labs\\InnovationLab\\BotWithLUIS\\BotWithLUIS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ignacio.secco\\source\\repos\\BotWithLUIS\\BotWithLUIS\\BotWithLUIS.csproj",
+        "projectUniqueName": "C:\\Users\\ragonzalez\\OneDrive - ENDAVA\\Documents\\innovation labs\\InnovationLab\\BotWithLUIS\\BotWithLUIS.csproj",
         "projectName": "BotWithLUIS",
-        "projectPath": "C:\\Users\\ignacio.secco\\source\\repos\\BotWithLUIS\\BotWithLUIS\\BotWithLUIS.csproj",
-        "packagesPath": "C:\\Users\\ignacio.secco\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ignacio.secco\\source\\repos\\BotWithLUIS\\BotWithLUIS\\obj\\",
+        "projectPath": "C:\\Users\\ragonzalez\\OneDrive - ENDAVA\\Documents\\innovation labs\\InnovationLab\\BotWithLUIS\\BotWithLUIS.csproj",
+        "packagesPath": "C:\\Users\\ragonzalez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ragonzalez\\OneDrive - ENDAVA\\Documents\\innovation labs\\InnovationLab\\BotWithLUIS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\ignacio.secco\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ragonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -66,7 +68,6 @@
               "version": "[1.15.0, )"
             },
             "Microsoft.NETCore.App": {
-              "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
