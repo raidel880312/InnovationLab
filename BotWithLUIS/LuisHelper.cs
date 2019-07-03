@@ -104,6 +104,23 @@ namespace BotWithLUIS
             return details;
         }
 
+         public static string GetIntentionValue(string intention = "MicrosoftAppId")
+        {
+            string filepath = "../appsettings.json";
+            using (StreamReader r = new StreamReader(filepath))
+            {
+                var json = r.ReadToEnd();
+                var jobj = JObject.Parse(json);       
+                foreach (var item in jobj.Properties()) {
+                    if (item.key == intention) {
+                        return item.Value.ToString();
+                    }
+                }
+                              
+            }
+            return string.Empty;
+        }
+
         public static void StartConversation(GlobalDetails details)
         {
             details.ConversationStarted = true;
